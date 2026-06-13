@@ -49,3 +49,5 @@ if user_input:
     st.session_state['message_history'].append({'role': 'assistant', 'content': ai_message})
     with st.chat_message('assistant'):
         st.text(ai_message)
+    # with st.chat_message('assistant') → opens a chat bubble with the assistant icon
+    # st.text(ai_message) → displays the full AI response text inside that bubble
