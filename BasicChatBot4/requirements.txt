@@ -1,0 +1,16 @@
+# Web App
+streamlit
+
+# LangGraph
+langgraph
+# langgraph-checkpoint-sqlite
+
+# LangChain
+langchain-core
+langchain-groq
+
+# Groq SDK
+groq
+
+# Environment Variables
+python-dotenv
