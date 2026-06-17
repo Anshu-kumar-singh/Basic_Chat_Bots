@@ -1,0 +1,30 @@
+# ---- Core LangChain ----
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0      # RecursiveCharacterTextSplitter
+
+# ---- LLM provider (Groq) ----
+langchain-groq>=0.2.0                 # ChatGroq
+
+# ---- LLM provider (Gemini) ----
+langchain-google-genai>=2.0.0         # GoogleGenerativeAIEmbeddings (used as the embedding model)
+
+# ---- LangGraph + persistence ----
+langgraph>=0.2.0
+langgraph-checkpoint-sqlite>=2.0.0    # SqliteSaver (separate pip package, NOT plain sqlite3)
+
+# ---- Vector store ----
+faiss-cpu>=1.8.0                      # FAISS
+
+# ---- PDF loading ----
+pypdf>=4.0.0                          # PyPDFLoader backend
+
+# ---- Web search tool ----
+duckduckgo-search>=6.0.0              # DuckDuckGoSearchAPIWrapper
+
+# ---- Frontend ----
+streamlit>=1.38.0
+
+# ---- Utilities ----
+python-dotenv>=1.0.0
+requests>=2.31.0
